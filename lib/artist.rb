@@ -25,5 +25,5 @@ class Artist
     array=Song.all.select {|song| song.artist == self}
     array.map {|song| song.genre}
   end
-  
+
 end
